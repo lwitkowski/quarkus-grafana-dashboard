@@ -1,0 +1,8 @@
+# IDEA files
+.idea/*
+*.ipr
+*.iml
+*.iws
+
+# MacOS files
+.DS_Store
