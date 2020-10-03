@@ -6,3 +6,6 @@
 
 # MacOS files
 .DS_Store
+
+grafana/data
+prometheus/data

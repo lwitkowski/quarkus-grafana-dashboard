@@ -1,0 +1,12 @@
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 1s
+    static_configs:
+      - targets:
+        - docker.for.windows.localhost:8080
+        - docker.for.mac.localhost:8080
+        - docker.for.mac.localhost:8092
